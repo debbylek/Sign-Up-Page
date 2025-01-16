@@ -1,0 +1,109 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  }
+  
+  form {
+  background-color: #77e350;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  margin: 4px auto;
+  border: 1px solid #ccc;
+  }
+  
+  h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  label[for="FirstName"],
+  label[for="LastName"],
+  label[for="email"],
+  label[for="address"],
+  label[for="createyourpassword"],
+  label[for="confirmpassword"] {
+  display: inline-block;
+  width: auto;
+  font-weight: bold;
+  color: #2f1a03;
+  vertical-align: top;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+  width: 250px;
+  padding: 5px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 0px;
+vertical-align: top;
+}
+
+#confirmpassword {
+width: 3px;
+font-size: 16px;
+}
+
+#accept-terms {
+display: inline-block;
+margin-top: 0px;
+margin-left: 0px;
+font-size: 14px;
+}
+
+button[type="submit"] {
+display: inline-block;
+margin-left: 10px;
+background-color: #e7c9ba;
+color: #090909;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #4E577D;
+}
+
+label[for="email"]::after {
+content: " :";
+}
+
+label[for="address"]::after {
+  content: " :";
+}
+
+label[for="createyourpassword"]::after {
+content: " :";
+}
+
+label[for="confirmpassword"]::after {
+content: " :";
+}
+
+@media screen and (max-width: 768px) {
+  label[for="FirstName"],
+  label[for="LastName"],
+  label[for="email"],
+  label[for="address"],
+  label[for="createyourpassword"],
+  label[for="confirmpassword"] {
+  display: inline-block !important;
+  width: auto !important;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+  width: 45% !important;
+  display: inline-block !important;
+  }
+  }
+  
+  
+
+  
