@@ -26,7 +26,6 @@ body {
   label[for="createyourpassword"],
   label[for="confirmpassword"] {
   display: inline-block;
-  width: auto;
   font-weight: bold;
   color: #2f1a03;
   vertical-align: top;
@@ -35,7 +34,7 @@ body {
   input[type="text"],
   input[type="email"],
   input[type="password"] {
-  width: 250px;
+  width: 150px;
   padding: 5px;
 margin-bottom: 20px;
 border: 1px solid #ccc;
