@@ -87,23 +87,19 @@ content: " :";
 }
 
 @media screen and (max-width: 768px) {
-  label[for="LastName"] {
+  label, input[type="text"], input[type="email"] {
   display: inline-block;
-  width: 100px; /* adjust the width as needed _/
+  vertical-align: top;
   }
-  input[name="LastName"] {
-  width: calc(100% - 120px); /_ adjust the width as needed _/
-  display: inline-block;
+  input[type="text"], input[type="email"] {
+  width: 60%;
   }
-  label[for="address"] {
-  display: inline-block;
-  width: 100px; /_ adjust the width as needed _/
-  }
-  input[name="address"] {
-  width: calc(100% - 120px); /_ adjust the width as needed */
-  display: inline-block;
+  label {
+  width: 30%;
   }
   }
+  
+  
   
   
 
