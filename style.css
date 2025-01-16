@@ -87,23 +87,17 @@ content: " :";
 }
 
 @media screen and (max-width: 768px) {
-  label[for="FirstName"],
-  label[for="LastName"],
-  label[for="email"],
-  label[for="address"],
-  label[for="createyourpassword"],
-  label[for="confirmpassword"] {
-  display: inline-block !important;
-  width: auto !important;
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-  width: 45% !important;
-  display: inline-block !important;
+  label, input[type="text"], input[type="email"], input[type="password"] {
+    width: 45%;
   }
-  }
-  
+}
+
+
   
 
   
