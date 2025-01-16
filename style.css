@@ -85,13 +85,13 @@ label[for="confirmpassword"]::after {
 content: " :";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 68px) {
   label, input[type="text"], input[type="email"] {
   display: inline-block;
   vertical-align: top;
   }
   input[type="text"], input[type="email"] {
-  width: 60%;
+  width: 5%;
   }
   label {
   width: 30%;
